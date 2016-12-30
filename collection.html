@@ -1,9 +1,44 @@
 <html>
   <head>
     <title>Charles' CD Collection</title>
+    <style>
+      dt, dd {
+        padding: 1em 0;
+        border-top: 1px solid #000;
+      }
+      dt {
+        float: left;
+        width: 20%;
+      }
+      dd {
+        width: 75%;
+        margin: 0 0 0 20%;
+        padding: 0 5% 0 0;
+      }
+      dd:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      ul { padding: 0 0 0 2.5em; }
+      @media (min-width: 64em) {
+        dl {
+          float: left;
+          width: 47.5%;
+        }
+        dt { width: 40% }
+        dd {
+          width: 55%;
+          margin: 0 0 0 40%;
+        }
+        dl:first-of-type {
+          margin-right: 5%;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>Charles' CD Collection <small>(~368 albums)</small></h1>
+    <h1>Charles' CD Collection <small>(~367 albums from 157 bands)</small></h1>
     <dl>
 <dt><strong>_Of the Wand &amp; the Moon_</strong></dt>
 <dd>
@@ -293,9 +328,7 @@
 <dt><strong>Death in June</strong></dt>
 <dd>
   <ul>
-    <li><del>Brown Book</del></li>
     <li>But, What Ends When the Symbols Shatter_</li>
-    <li><del>Rose Clouds of Holocaust</del></li>
   </ul>
 </dd>
 <dt><strong>Decoded Feedback</strong></dt>
@@ -559,6 +592,8 @@
     <li>Pop</li>
   </ul>
 </dd>
+</dl>
+<dl>
 <dt><strong>Joke Jay</strong></dt>
 <dd>
   <ul>
@@ -628,14 +663,7 @@
     <li>Mira</li>
   </ul>
 </dd>
-<dt><strong>Miranda Sex Garden</strong></dt>
-<dd>
-  <ul>
-    <li>Carnival of Souls</li>
-    <li>Suspiria</li>
-  </ul>
-</dd>
-<dt><strong>Miriamm</strong></dt>
+<dt><strong>Miriam</strong></dt>
 <dd>
   <ul>
     <li>When Beauty Is Invisible</li>
@@ -788,12 +816,6 @@
 <dd>
   <ul>
     <li>Talk About The Weather</li>
-  </ul>
-</dd>
-<dt><strong>Requiem in White</strong></dt>
-<dd>
-  <ul>
-    <li><del>Of the Want Infinitie</del></li>
   </ul>
 </dd>
 <dt><strong>Retrosic</strong></dt>
@@ -951,12 +973,6 @@
     <li>Eternity- The Best of Syntec</li>
   </ul>
 </dd>
-<dt><strong>Tactical Sekt</strong></dt>
-<dd>
-  <ul>
-    <li><del>Syncope</del></li>
-  </ul>
-</dd>
 <dt><strong>The Beauty Of Gemina</strong></dt>
 <dd>
   <ul>
@@ -1016,12 +1032,6 @@
   <ul>
     <li>Anthology [CD 1]</li>
     <li>Anthology [CD 2]</li>
-  </ul>
-</dd>
-<dt><strong>The Order Of The NCS</strong></dt>
-<dd>
-  <ul>
-    <li><del>The Musical Works Of The NCS Volume 1</del></li>
   </ul>
 </dd>
 <dt><strong>The Shroud</strong></dt>
@@ -1111,7 +1121,6 @@
 <dt><strong>Virgin Prunes</strong></dt>
 <dd>
   <ul>
-    <li>...If I Die, I Die</li>
     <li>If I Die, I Die</li>
   </ul>
 </dd>
